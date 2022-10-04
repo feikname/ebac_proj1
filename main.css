@@ -4,12 +4,13 @@
     padding: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Roboto&display=swap');
+
 header,
 section h2,
 section h3
 form button {
-    font-family: 'Bungee', cursive;
-    font-weight: normal;
+    font-family: 'Gemunu Libre', sans-serif;
 }
 
 body, input, textarea {
@@ -26,6 +27,7 @@ header nav li {
     display: inline;
     margin-left: 16px;
     font-size: 18px;
+    font-weight: bold;
 }
 
 header nav li a {
@@ -34,7 +36,7 @@ header nav li a {
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 800px;
     width: 100%;
     margin: 0 auto;
 }
@@ -46,13 +48,9 @@ section .container {
     justify-content: space-between;
 }
 
-.brands-list img {
-    height: 24px;
-}
-
-.brands-list li {
-    display: inline;
-    margin-right: 8px;
+.inline-img {
+    height: 12px;
+    display: inline-block;
 }
 
 section .container {
@@ -69,28 +67,38 @@ section h2 {
 }
 
 section p {
-    margin-bottom: 8px;
+    margin-bottom: 12px;
 }
 
 section {
     color: #182c61;
 }
 
-.store-front {
+/* TODO: Fix this */
+section .container .main-image-left {
+    height: 200px;
+}
+
+section .container .main-image-right {
+    height: 200px;
+}
+
+section .container .main-image-left 
+{
     margin-right: 32px;
 }
 
-.social-links img {
-    height: 24px;
+section .container .main-image-right 
+{
+    margin-left: 32px;
 }
 
-.social-links li {
-    display: inline;
-    margin-right: 8px;
+.instagram-link {
+    text-decoration:none;display:flex;align-items:center;justify-content: space-between;
 }
 
-.social-links li a {
-    text-decoration: none;
+.instagram-link img {
+    height:24px;margin-right: 4px;
 }
 
 #contact .container {

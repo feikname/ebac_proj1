@@ -6,20 +6,25 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Roboto&display=swap');
 
+body {
+    background-color: rgb(255, 240, 243);
+}
+
 header,
 section h2,
-section h3
-form button {
+section h3 form button {
     font-family: 'Gemunu Libre', sans-serif;
 }
 
-body, input, textarea {
+body,
+input,
+textarea {
     font-family: 'Roboto', sans-serif;
 }
 
 header {
     padding: 16px 0;
-    background-color: #182c61;
+    background-color: royalblue;
     color: #ecf0f1;
 }
 
@@ -63,7 +68,9 @@ section {
 
 section h2 {
     margin-bottom: 16px;
-    color: #182c61;
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    font-weight: bold;
 }
 
 section p {
@@ -71,34 +78,32 @@ section p {
 }
 
 section {
-    color: #182c61;
+    color: black;
 }
 
-/* TODO: Fix this */
-section .container .main-image-left {
-    height: 200px;
-}
-
+section .container .main-image-left,
 section .container .main-image-right {
     height: 200px;
 }
 
-section .container .main-image-left 
-{
+section .container .main-image-left {
     margin-right: 32px;
 }
 
-section .container .main-image-right 
-{
+section .container .main-image-right {
     margin-left: 32px;
 }
 
 .instagram-link {
-    text-decoration:none;display:flex;align-items:center;justify-content: space-between;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .instagram-link img {
-    height:24px;margin-right: 4px;
+    height: 24px;
+    margin-right: 4px;
 }
 
 #contact .container {
@@ -129,22 +134,23 @@ section h3 {
 }
 
 form button {
-    background-color: #182c61;
+    background-color: royalblue;
     color: #fff;
     border: none;
     cursor: pointer;
 }
 
 form button:hover {
-    background-color: #314e9e;
+    background-color: rgb(102, 140, 255);
 }
 
-input:focus, textarea:focus {
-    outline-color: #182c61;
+input:focus,
+textarea:focus {
+    outline-color: royalblue;
 }
 
 footer {
-    background-color: #182c61;
+    background-color: royalblue;
     color: #ecf0f1;
-    padding: 16px 0;   
+    padding: 16px 0;
 }

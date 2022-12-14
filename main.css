@@ -44,14 +44,14 @@ a:hover {
     text-decoration: underline;
 }
 
-.container {
+.wrapper {
     max-width: 800px;
     width: 100%;
     margin: 0 auto;
 }
 
-header .container,
-section .container {
+header .wrapper,
+section .wrapper {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,7 +62,7 @@ section .container {
     display: inline-block;
 }
 
-section .container {
+section .wrapper {
     align-items: flex-start;
 }
 
@@ -85,16 +85,16 @@ section {
     color: black;
 }
 
-section .container .main-image-left,
-section .container .main-image-right {
+section .wrapper .main-image-left,
+section .wrapper .main-image-right {
     height: 200px;
 }
 
-section .container .main-image-left {
+section .wrapper .main-image-left {
     margin-right: 32px;
 }
 
-section .container .main-image-right {
+section .wrapper .main-image-right {
     margin-left: 32px;
 }
 
@@ -110,7 +110,7 @@ section .container .main-image-right {
     margin-right: 4px;
 }
 
-#contact .container {
+#contact .wrapper {
     display: block;
 }
 

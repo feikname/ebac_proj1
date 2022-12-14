@@ -40,6 +40,10 @@ header nav li a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .container {
     max-width: 800px;
     width: 100%;

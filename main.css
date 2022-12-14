@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre&family=Roboto&display=swap');
 
 body {
-    background-color: rgb(255, 238, 238);
+    background-color: rgb(255, 245, 245);
 }
 
 header,
@@ -32,15 +32,16 @@ header nav li {
     font-weight: bold;
 }
 
-a {
+a, a:visited {
     text-decoration: none;
+    color: rgb(33, 155, 255);
 }
 
 a:hover {
     text-decoration: underline;
 }
 
-header nav li a {
+header nav li a, header nav li a:visited {
     color: #ecf0f1;   
 }
 
@@ -108,7 +109,6 @@ a.img img {
     height: 24px;
     margin-right: 4px;
 }
-
 
 #contact .wrapper {
     display: block;
